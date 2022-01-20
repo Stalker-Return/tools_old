@@ -146,3 +146,10 @@ rm -rf yay_install<br/>
 sudo systemctl --failed								<br/>
 sudo journalctl -p 3 -xb							<br/>
 sudo dmesg >> /home/ed/Clouds/Dropbox/BackUps/Linux/tools/dmesg.txt		<br/>
+<br/>
+<br/>
+**Format a Bootable USB to Normal:** <br/>
+sudo fdisk -l <br/>
+sudo wipefs --all /dev/sdc <br/>
+sudo cfdisk /dev/sdc <br/>
+sudo mkfs.vfat -n 'ARCH' /dev/sdc1 <br/>
