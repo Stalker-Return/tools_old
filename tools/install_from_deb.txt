@@ -1,0 +1,26 @@
+sudo -i
+cd .
+cd ..
+ls
+cd home
+cd ed
+cd Downloads
+sudo dpkg -i skypeforlinux-64.deb
+
+sudo dpkg -i ~/Downloads/teamviewer_13.1.8286_amd64.deb
+
+sudo apt-get install unity-tweak-tool gnome-tweak-tool
+
+
+How to remove Password in Ubuntu
+https://www.youtube.com/watch?v=2nJebclpQWc
+sudo visudo
+
+sudo dpkg -i ~/Downloads/google-chrome-stable_current_amd64.deb
+
+sudo apt-mark hold libcurl4
+sudo dpkg -i --ignore-depends=libcurl3 ~/Downloads/viber.deb
+sudo apt install -f
+sudo dpkg -i --ignore-depends=libcurl3 ~/Downloads/viber.deb
+sudo apt-mark unhold libcurl4
+sudo apt install libcurl3 ~/Downloads/viber.deb

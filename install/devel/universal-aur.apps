@@ -1,0 +1,55 @@
+## Essentials
+brave-bin				:: web browser that blocks ads and trackers by default
+anydesk-bin			:: remote desktop application
+masterpdfeditor-free	:: software creation and editing PDF files
+#deadbeef				:: GTK+ audio player for GNU/Linux
+#freeoffice				:: office suite with a word processor, spreadsheet, and presentation graphics software
+
+## Themes & fonts
+openbox-themes		:: themes for the Openbox window manager
+#ttf-ms-fonts		:: TTF Fonts from Microsoft
+#ttf-ancient-fonts	:: Unicode Fonts for Ancient Scripts
+#ttf-fork-awesome	:: fork of the iconic Font Awesome
+#ttf-mononoki
+#flat-remix			:: icon theme
+#qogir-gtk-theme		:: Qogir is a flat Design theme for GTK
+#plank-theme-arc	:: Arc theme for Plank
+
+## Tools
+pamac-classic	:: package updater
+powerkit		:: power manager (no longer supported)
+#fbxkb			:: keyboard indicator and switcher
+perwindowlayoutd	:: keeps per window keyboard layout under X11
+xkblayout-state	:: command-line program to get/set the current keyboard layout.
+woeusb			:: program to create Windows USB stick installer from a Windows DVD or an image
+#networkmanager-dmenu-git	:: control NetworkManager via dmenu
+inxi			:: command line system information tool
+glxinfo			:: display info about a GLX extension and OpenGL renderer
+stacer			:: Ubuntu system optimizer
+#oblogout		:: openbox logout script
+#obmenu			:: openbox menu editor
+#kazam			:: screencast and screenshot application
+#mirage			:: GTK+ Image Viewer
+#obkey			:: openbox keyboard shortcuts configuration
+#psuinfo		:: display customizable system info
+#ulauncher		:: application launcher for Linux
+#dirsyncpro		:: utility for file and folder synchronisation
+#t2ec			:: displays info icons and controls in Tint2 or other panels
+pdfsam			:: pdf-tools
+etcher-bin		::
+#pdfstudio-bin	:: app to review, annotate, and edit PDF documents
+
+## Messendgers & communications
+whatsapp-nativefier			:: WhatsApp desktop
+#whatsapp-for-linux			:: unofficial WhatsApp desktop application for linux
+skypeforlinux-stable-bin	:: Skype for Linux - Stable/Release Version
+viber						:: cross-platform IM and VoIP software
+zoom						:: Video Conferencing and Web Conferencing Service
+
+## Internet & Clouds
+pcloud-drive	:: pCloud drive
+#megasync		:: MEGA cloud drive sync
+#google-chrome	:: web browser by Google
+#tor-browser	:: anonymous browsing using Firefox and Tor
+#nyxt			:: keyboard-oriented, infinitely extensible web browser
+palemoon		:: lightweight web browser

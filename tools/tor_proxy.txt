@@ -1,0 +1,57 @@
+Setup tor proxy on Arch Linux
+https://gist.github.com/valyakuttan/ce4afb62288120cd5ecef0fde4ea63c4
+
+Installation
+(1) Install tor
+	sudo pacman -S tor --noconfirm
+	## nyx provides a terminal status monitor for bandwidth usage, connection details and more.
+	sudo pacman -S nyx --noconfirm
+	## torsocks safely torify applications
+	sudo pacman -S torsocks --noconfirm
+(2) Start the tor service
+	sudo systemctl enable --now tor.service
+(3) By default, Tor runs on port 9050. Check it
+	systemctl status tor.service
+	ss -nlt
+
+Test Tor Network Connection
+(1) Check your current public IP address
+	wget -qO - https://api.ipify.org; echo
+(2) Torify the command through the torsocks
+	torsocks wget -qO - https://api.ipify.org; echo
+	## must show a different ip address
+
+Torify your Shell
+(1) torify the shell, issue
+	source torsocks on
+	wget -qO - https://api.ipify.org; echo
+	## must show the ip address of tor node
+(2) To turn on torsocks permanently for all new shells add it to .bashrc
+	$ echo ". torsocks on" >> ~/.bashrc
+(3) If you want to turn torsocks off, try
+	source torsocks off
+
+Enable the Tor control port
+(1) Add to your /etc/tor/torrc
+	ControlPort 9051
+(2) Set a Tor Control password
+Convert your password from plain-text to hash
+	set +o history # unset bash history
+	tor --hash-password your_password
+	set -o history # set bash history
+(3) Add that hash to your /etc/tor/torrc
+	HashedControlPassword your_hash
+(4) Restart tor
+	sudo systemctl restart tor.service
+(5) Check the status of port 9051
+	ss -nlt
+
+Test your tor control port
+(1) Install gnu-netcat
+	sudo pacman -S gnu-netcat
+(2) To test your tor use
+	echo -e 'PROTOCOLINFO\r\n' | nc 127.0.0.1 9051
+(3) To request a new circuit (IP address) from Tor, use
+	set +o history
+	echo -e 'AUTHENTICATE "my-tor-password"\r\nsignal NEWNYM\r\nQUIT' | nc 127.0.0.1 9051
+	set -o history

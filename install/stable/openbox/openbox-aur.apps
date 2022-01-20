@@ -1,0 +1,4 @@
+## Openbox aur-apps
+#fbxkb				:: keyboard indicator and switcher
+perwindowlayoutd	:: keeps per window keyboard layout under X11
+xkblayout-state		:: command-line program to get/set the current keyboard layout.

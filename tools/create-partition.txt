@@ -1,0 +1,29 @@
+Start Windows installation and push the SHIFT + F10 buttons
+next, use the DOS commands
+
+1: DISKPART
+  DISKPART>
+
+2: DISKPART> LIST DISK
+  Disk 0  Online   232 GB  0
+  Disk 1  Online    14 GB  0
+
+3: SELECT DISK 0
+  Disk 0 is now the selected disk
+
+4: CLEAN
+  Diskpart succeeded in cleaning the disk
+
+5: CONVERT MBR
+  Diskpart successfully converted ... to MBR format
+
+6: CREATE PARTITION PRIMARY SIZE 80000
+  Diskpart succeeded in creating the spesified partition
+
+7: FORMAT FS NTFS LABEL "SYSTEM" QUICK
+  Diskpart successfully formated the volume
+
+8: EXIT
+  Leaving Diskpart
+
+9: EXIT

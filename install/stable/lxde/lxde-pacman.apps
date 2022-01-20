@@ -1,0 +1,25 @@
+## LXDE DE
+
+## minimal lxde set
+lxsession			:: Lightweight X11 session manager
+lxde-common			:: Common files of the LXDE Desktop
+openbox				:: Highly configurable and lightweight X11 window manager
+lxpanel				:: Lightweight X11 desktop panel for LXDE
+
+## extended lxde set
+#gpicview			:: Lightweight image viewer
+#lxappearance		:: Feature-rich GTK+ theme switcher of the LXDE Desktop
+#lxappearance-obconf	:: Plugin for LXAppearance to configure Openbox
+#lxde-icon-theme		:: LXDE default icon theme based on nuoveXT2
+#lxdm				:: Lightweight X11 Display Manager
+#lxhotkey			:: Keyboard shortcuts configurator (part of LXDE)
+#lxinput				:: Small program to configure keyboard and mouse for LXDE	
+#lxlauncher			:: Open source clone of the Asus launcher for EeePC
+#lxmusic				:: Lightweight music player (XMMS2 client)
+#lxrandr				:: Monitor configuration tool (part of LXDE)
+#lxtask				:: Task manager of the LXDE Desktop
+#lxterminal			:: VTE-based terminal emulator (part of LXDE)
+#pcmanfm				:: Extremely fast and lightweight file manager
+lightdm				:: feature-rich GTK+ theme switcher
+lightdm-gtk-greeter	:: plugin for LXAppearance to configure Openbox
+lightdm-gtk-greeter-settings	:: settings editor for the LightDM GTK+ Greeter

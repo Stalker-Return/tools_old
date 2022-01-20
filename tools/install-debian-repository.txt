@@ -1,0 +1,47 @@
+Install Tor:
+https://launchpad.net/~webupd8team/+archive/ubuntu/tor-browser
+sudo add-apt-repository ppa:webupd8team/tor-browser
+sudo apt-get update
+sudo apt-get install tor-browser
+-----------------------------------------------------------------------------------
+sudo apt install -y torbrowser-launcher
+torbrowser-launcher
+-----------------------------------------------------------------------------------
+Install Telegram:
+https://www.linuxbabe.com/desktop-linux/2-ways-install-telegram-ubuntu-16-04-ppa-snap
+sudo add-apt-repository ppa:atareao/telegram
+sudo apt-get update
+sudo apt-get install telegram
+-----------------------------------------------------------------------------------
+Install Whatsapp:
+https://launchpad.net/~atareao/+archive/ubuntu/whatsapp-desktop
+sudo add-apt-repository ppa:atareao/whatsapp-desktop
+sudo apt-get update
+sudo apt-get install whatsapp-desktop
+-----------------------------------------------------------------------------------
+Install Thunderbird:
+sudo add-apt-repository ppa:mozillateam/thunderbird-next
+sudo apt-get update
+sudo apt-get install thunderbird
+-----------------------------------------------------------------------------------
+Install Double Commander:
+sudo add-apt-repository ppa:alexx2000/doublecmd
+sudo apt-get update
+sudo apt-get install doublecmd-gtk
+-----------------------------------------------------------------------------------
+Install Whatsapp:
+sudo apt-get install Whatsapp:-qt
+-----------------------------------------------------------------------------------
+Install VLC:
+sudo add-apt-repository ppa:videolan/stable-daily
+sudo apt-get update
+sudo apt-get install vlc
+-----------------------------------------------------------------------------------
+Install Neofetch:
+sudo add-apt-repository ppa:dawidd0811/neofetch
+sudo apt-get update
+sudo apt-get install neofetch
+-----------------------------------------------------------------------------------
+https://www.linuxbabe.com/bittorrent/qbittorrent-web-ui-ubuntu
+sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
+sudo apt update && sudo apt install qbittorrent-nox

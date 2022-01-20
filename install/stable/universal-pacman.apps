@@ -1,0 +1,176 @@
+## Basics
+firefox	:: open source graphical web browser from Mozilla
+#pcmanfm	:: free file manager application
+#lxterminal	:: terminal emulator
+geany		:: fast and lightweight IDE
+keepassxc	:: password manager
+feh		:: image viewer
+zenity		:: display graphical dialog boxes from shell scripts
+tint2		:: panel for Xorg
+pasystray	:: PulseAudio system tray
+gsimplecal	:: GTK calendar
+
+## Display manader
+#lightdm			:: cross-desktop display manager
+#lightdm-gtk-greeter		:: settings editor for the LightDM GTK+ Greeter
+#lightdm-gtk-greeter-settings	:: settings editor for the LightDM GTK+ Greeter
+
+## USB-utils
+ntfs-3g		:: implementation of Microsoft NTFS
+udisks2		:: implements D-Bus interfaces used to query and manipulate storage devices
+gvfs		:: expands the features and functionality of file managers
+gvfs-smb	:: virtual filesystem implementation for GIO (SMB/CIFS backend; Windows client)
+usbutils	:: USB tools to query connected USB devices
+
+## Internet & Clouds
+#chromium		:: web browser
+#youtube-dl		:: downloads videos and audio from more than a thousand websites
+thunderbird		:: email, news, and chat client 
+rclone			:: sync files to and from Google Drive, S3, One Drive, Dropbox...
+#transmission-cli	:: BitTorrent client
+#opera			:: web browser
+#4kvideodownloader	:: downloads videos from YouTube in high-qualityvsftpd
+#vsftpd			:: FTP daemon
+
+## Messendgers
+signal-desktop		:: private messenger
+telegram-desktop	:: private messenger
+
+## Archivers
+arj		:: archiving and compression
+unarj	:: archiving and compression
+tar		:: archiving and compression
+xz		:: archiving and compression
+p7zip	:: archiving and compression
+unrar	:: archiving and compression
+zip		:: archiving and compression
+unzip	:: archiving and compression
+
+## Tools
+hardinfo	:: system information and benchmark tool
+htop		:: interactive process viewer
+qpdf		:: PDF transformation system
+xpdf		:: simple PDF viewer
+man			:: manual pages
+#ranger		:: simple vim like file manager
+starship	:: cross-shell prompt
+xscreensaver	:: a screen saver and locker for the X Window System
+#lxqt-powermanagement	:: power manager
+xfce4-power-manager		:: power manager
+exa		:: ls replacement
+highlight	:: fast and flexible source code highlighter
+neofetch	:: CLI system information tool
+lm_sensors	:: monitoring temperatures, voltage, and fans
+psensor		:: graphical hardware temperature monitoring application
+rofi		:: window switcher
+gparted		:: Partition Magic clone, frontend to GNU Parted
+gpart		:: Partition table rescue/guessing tool
+testdisk	:: Checks and undeletes partitions + PhotoRec, signature based recovery tool
+lxtask		:: task manager 
+dunst		:: notification daemon for desktop environments
+scrot		:: simple screenshot software
+flameshot	:: powerful screenshot software
+conky		:: system monitor software for the X Window System
+wavemon	:: monitoring application for wireless network devices
+dmenu		:: dynamic menu for X
+#blueman	:: bluetooth manager
+systemd-ui	:: graphical front-end for systemd
+gnome-disk-utility	:: disk management utility
+regexxer	:: search and replace tool featuring Perl-style regular expressions
+
+## Settings
+#lxappearance		:: feature-rich GTK+ theme switcher
+#lxappearance-obconf	:: plugin for LXAppearance to configure Openbox
+arandr			:: provides a simple visual front end for XRandR 1.2
+audacity		:: manipulates digital audio waveforms
+pavucontrol		:: general purpose sound server 
+archlinux-xdg-menu	:: generates XDG Desktop Menus
+menumaker		:: menu generator for Deskmenu
+#grub-customizer	:: graphical grub2 settings manager
+#nitrogen		:: desktop background browser and setter for X Window.
+picom			:: standalone compositor for Xorg
+#gucharmap		:: Gnome Unicode Charmap
+
+## Print group
+#system-config-printer	:: CUPS printer configuration tool and status applet
+#hplip			:: Drivers for HP DeskJet, OfficeJet, Photosmart, Business Inkjet and some LaserJet
+#cups-pdf		:: prints into a PDF document
+#libcups		:: client libraries and headers
+#python-pyqt5		:: set of Python bindings for the Qt5 toolkit
+
+## Office
+#libreoffice-still	:: power-packed Open Source personal productivity suite
+libreoffice-fresh	:: 
+hunspell		:: Spell checker and morphological analyzer library and program
+hyphen			:: library for hyphenation and justification
+gimp			:: image editing program
+galculator		:: GTK+ based scientific calculator
+
+## Multimedia
+ffmpeg		:: app to record, convert and stream audio and video
+#vlc		:: multimedia player and framework
+#kdenlive	:: video editor for Linux
+#obs-studio	:: live streaming and recording
+
+## Codecs and plugins
+a52dec		:: free library for decoding ATSC A/52 streams
+faac
+faad2
+flac
+jasper
+lame
+libdca
+libdv
+libmad
+libmpeg2
+libtheora
+libvorbis
+libxv
+wavpack
+x264
+xvidcore
+gstreamer0.10-plugins
+
+## Themes & Fonts
+ttf-freefont		:: iconic fonts
+ttf-dejavu			:: font family based on the Bitstream Vera Fonts
+ttf-ubuntu-font-family
+ttf-hack
+ttf-joypixels
+arc-gtk-theme		:: flat theme with transparent elements for GTK 3, GTK 2
+papirus-icon-theme	:: papirus icon theme
+arc-icon-theme		:: arc icon theme
+noto-fonts-emoji	:: Google Noto emoji fonts
+noto-fonts			:: 
+unicode-emoji		:: unicode emoji data files
+
+## Substitutes
+#doublecmd-qt5		:: twin-panel (commander-style) file manager
+leafpad			::notepad clone for GTK+ 2.0
+gmrun			:: application launcher
+#alacritty		:: GPU-accelerated terminal emulator
+#thunar			:: file manager for the Xfce Desktop Environment
+#plank			:: dock
+#okular			:: document viewer
+#jgmenu			:: contemporary-looking X11 menu
+
+## Extra apps
+#samba			:: standard Windows interoperability suite of programs for Linux and Unix
+#rhythmbox		:: audio player
+#emacs			:: extensible, customizable, self-documenting real-time display editor
+#pragha			:: GTK music player and manager
+#bpytop			:: resource monitor that shows usage and stats for processor
+#imagemagick		:: software suite for displaying, converting, and editing raster images
+#cbatticon		:: battery icon for the system tray
+#gnome-screenshot	:: screen capture
+
+## LXDE minimal (optional)
+#lxde-common	:: Common files of the LXDE Desktop
+#lxpanel		:: Lightweight X11 desktop panel for LXDE
+#lxsession		:: Lightweight X11 session manager
+
+## I3 (optional)
+#i3-wm		:: Improved dynamic tiling window manager
+i3-gaps
+i3blocks	:: Define blocks for your i3bar status line
+i3status	:: Generates status bar to use with i3bar, dzen2 or xmobar

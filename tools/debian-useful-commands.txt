@@ -1,0 +1,57 @@
+sudo apt-get install -f
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+sudo update-manager
+-----------------------------------------------------------------------------
+Uninstall Apps:
+dpkg --list
+sudo apt-get --purge remove packagename
+Delete with all dependencies
+apt-get remove --auto-remove packagename
+-----------------------------------------------------------------------------
+free -m
+uname -a
+
+ls -l /var/crash/
+sudo rm /var/crash/*
+
+sudo du -sh /var/cache/apt
+sudo apt-get clean
+or
+sudo du -hs /var/cache/* | sort -h
+sudo rm -rf /var/cache/mock/*
+-----------------------------------------------------------------------------
+To search for a package name:
+apt search telegram-desktop
+sudo apt install telegram-desktop
+-----------------------------------------------------------------------------
+Download from torrent:
+transmission-cli filename.torrent
+-----------------------------------------------------------------------------
+Take a screenshot:
+import -window root Pictures/filename.png
+import -window root -resize 640 -pause 4 Pictures/filename.png
+import Pictures/filename.png
+import -frame Pictures/filename.png
+ls -l filename.png
+-----------------------------------------------------------------------------
+Create Links:
+ln -s /usr/share/applications/org.keepassxc.KeePassXC.desktop /home/ed/Desktop
+ln -s /home/name/Downloads /home/name/Desktop
+-----------------------------------------------------------------------------
+Copy files:
+sudo -i
+cp /home/ed/Clouds/Bureau/Store/Images/WallPaper/*.* /usr/share/lubuntu/wallpapers
+-----------------------------------------------------------------------------
+FFMPEG COMMANDS:
+Convert image to 5 sec. video:	 ffmpeg -loop 1 -i 01.png -t 5 out.mp4.
+15 images to 30 Hz 5 sec. video: ffmpeg -r 3 -i %03d.png -r 30 out.mp4.
+Resize video to 720p:		 ffmpeg -i input.webm -s 1280x720 output.webm.
+Concatenate videos:		 ffmpeg -f concat -i mylist.txt -c copy out.mp4.
+
+Fade in the first 25 frames and fade out the last 25 frames of a 1000-frame video:
+		ffmpeg -i in.mp4 -vf 'fade=in:0:25, fade=out:975:25' out.mp4.
+
+Example: 	ffmpeg -ss 00:04:39.0 -i VideoCNN.mp4 -c copy -t 00:02:06.0 output.mp4

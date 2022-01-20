@@ -1,0 +1,10 @@
+## Openbox
+openbox			:: stacking window manager
+obconf			:: GTK+ based configuration tool for the Openbox windowmanager
+lightdm			:: feature-rich GTK+ theme switcher
+lightdm-gtk-greeter	:: plugin for LXAppearance to configure Openbox
+lightdm-gtk-greeter-settings	:: settings editor for the LightDM GTK+ Greeter
+pcmanfm			:: free file manager application
+lxterminal		:: terminal emulator
+lxappearance		:: feature-rich GTK+ theme switcher
+lxappearance-obconf	:: plugin for LXAppearance to configure Openbox

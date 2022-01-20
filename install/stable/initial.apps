@@ -1,0 +1,62 @@
+## Essentials
+xterm			:: standard terminal emulator for the X Window System
+sudo			:: delegates authority from a system administrator to certain users
+reflector		:: retrieve the latest mirror list
+wget			:: package for retrieving files using HTTP, HTTPS, FTP and FTPS
+git				:: version control system (VCS)
+rsync			:: provides fast incremental file transfer
+pacman-contrib	:: contributed scripts and tools for pacman systems
+dialog			:: display dialog boxes from shell scripts
+
+## Network
+networkmanager		:: detection and configuration for systems to automatically connect to networks
+#network-manager-applet	:: for a system tray applet
+dhclient		:: standalone DHCP client from the dhcp package
+net-tools		:: configuration tools for Linux networking
+netctl			:: profile based systemd network management
+wpa_supplicant		:: support for WEP, WPA and WPA2
+wireless_tools		:: tools allowing to manipulate the wireless extensions
+inetutils		:: collection of common network programs
+ipset			:: a companion application for the iptables Linux firewall
+iptables		:: a command line utility for configuring Linux kernel firewall
+iw				:: CLI configuration utility for wireless devices
+
+## Tools
+dosfstools		:: create, check and label file systems of the FAT family
+perf			:: Linux kernel peffomance auditing tools
+linux-headers	:: headers and scripts for building modules for the Linux kernel
+aspell			:: interactive spell checker
+mtools			:: collection of utilities to access MS-DOS disks
+powertop		:: a tool provided by Intel to enable various powersaving modes in userspace
+acpi			:: client for battery,power and termal reading
+amd-ucode		:: microcode update image for AMD
+intel-ucode		:: microcode update image for Intel
+alsa-utils		:: Advanced Linux Sound Architecture - Utilities
+xarchiver		:: GTK+ frontend to various command line archivers
+pulseaudio		:: general-purpose sound server
+lshw			:: provides detailed information on the hardware configuration
+parted			:: creating and manipulating partition tables
+ncdu			:: disk usage analyzer
+hdparm			:: set and view parameters of hard disk drives
+dmidecode		:: desktop management interface table related utilities
+xdg-utils		:: utilities for managing XDG MIME Applications
+xdg-user-dirs	:: manages "well known" user directories
+wmctrl			:: Control your EWMH compliant window manager from command line
+util-linux		:: Miscellaneous system utilities for Linux
+
+## System Services
+#openssh		:: SSH protocol provids encrypted communication sessions
+#cups			:: open source printing system
+#bluez			:: wireless interconnection
+#bluez-utils	:: utilities for the bluetooth protocol stack
+
+#Torify the Shell
+#tor			::
+#nyx			::
+#gnu-netcat		::
+#socat			::
+
+## Extended
+#pyxdg			:: !!! - be carefull, openbox-xdg-autostart requires PyXDG to be installed
+#python-xdg		:: library to access freedesktop.org standards
+#os-prober		:: dual boot with Windows

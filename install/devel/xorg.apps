@@ -1,0 +1,11 @@
+## XORG
+#xorg			:: X.Org project provides an open source implementation of the X Window System
+xorg-twm		:: tab Window Manager for the X Window System
+xorg-xinit		:: X.Org initialisation program
+xorg-xclock		:: X clock
+#xautolock		:: automatic X screen-locker/screen-saver
+xdotool			:: command-line X11 automation tool
+#xf86-video-intel	:: X.org Intel i810/i830/i915/945G/G965+ video drivers
+xorg-server		:: Xorg X server
+xorg-drivers	:: Xorg X drivers
+#nvidia			:: graphics card driver

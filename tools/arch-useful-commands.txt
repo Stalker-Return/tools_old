@@ -1,0 +1,18 @@
+System update:
+Update only standard pkgs				sudo pacman -Syyu
+Update only AUR pkgs					yay -Sua --noconfirm
+Update standard pkgs and AUR pkgs		yay -Syu --noconfirm
+
+Packages:
+install list							pacman -Q
+no longer required as dependencies		pacman -Qdt
+remove orphaned packages				sudo pacman -Rns $(pacman -Qtdq)
+remove pacman lock						sudo rm /var/lib/pacman/db.lck
+remove with all dependencies			sudo pacman -Rns package-name
+remove with all dependencies			sudo pacman -Rns package-name
+remove cached packages					sudo pacman -Scc
+remove unwanted dependencies			yay -Yc
+find and locate a file					sudo find -type f -name "*filename*"
+find and locate a folder				sudo find -type d -name "*foldername*"
+
+create a links				ln -s $HOME/Downloads $HOME/Desktop
