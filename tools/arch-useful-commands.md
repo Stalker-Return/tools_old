@@ -61,7 +61,7 @@ sudo find / -type d -name '\*icon*'<br/>
 <br/>
 **Find the text into files:**<br/>
 sudo find /path/to/file -type f -name "*.xml" -exec grep -l "text" {} \; <br/>
-sudo find /home/ed/Clouds/Dropbox/BackUps/Linux/ -type f -name "*.apps" -exec grep -l "xdg-utils" {} \; <br/>
+sudo find /home/ed/Clouds/Dropbox/BackUps/Linux/ -type f -name "\*.apps" -exec grep -l "xdg-utils" {} \\; <br/>
 <br/>
 **Delete *.txt files from ~/Downloads/:**<br/>
 find ~/Downloads/ -name "\*.txt" -exec rm {} \;<br/>
